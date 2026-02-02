@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&family=Michroma&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Lexend Exa", "sans-serif";
+  --font-michroma: "Michroma", "sans-serif";
+}
+
+.my-search .ant-span {
+  border-radius: 100px; /* fully rounded input */
+}
+
+.my-search .ant-input-search-button {
+  border-radius: 100px; /* fully rounded button */
+}
+
+body {
+  scroll-behavior: smooth;
+  background-color: #0e0e0e;
+}
