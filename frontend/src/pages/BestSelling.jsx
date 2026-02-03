@@ -5,7 +5,7 @@ const BestSelling = () => {
   return (
     <div className="w-full h-100 flex justify-center items-center flex-col gap-10 py-10 mb-8 mt-4">
       <div>
-        <h1 className="text-[30px] text-white rounded-lg ">
+        <h1 className="font-michroma text-[30px] text-white rounded-lg ">
           BEST <span className="text-[#ffe6a7]">SELLING </span>
         </h1>
       </div>

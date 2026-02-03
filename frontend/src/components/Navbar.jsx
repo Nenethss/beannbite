@@ -1,6 +1,7 @@
 import React from "react";
 import LogoW from "../assets/Logo_white.png";
 import { IoIosSearch } from "react-icons/io";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -45,9 +46,11 @@ const Navbar = () => {
             <IoIosSearch className="text-md  cursor-pointer absolute right-2 top-1/2 -translate-y-1/2" />
           </div>
           <div className="flex gap-4">
-            <button className="cursor-pointer hover:text-white bg-white hover:bg-[#432818] text-[11px] px-2 py-1 w-22 rounded-[18px] tracking-widest">
-              LOG IN
-            </button>
+            <NavLink to="/login">
+              <button className="cursor-pointer hover:text-white bg-white hover:bg-[#432818] text-[11px] px-2 py-1 w-22 rounded-[18px] tracking-widest">
+                LOG IN
+              </button>
+            </NavLink>
           </div>
         </div>
       </div>

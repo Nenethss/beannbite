@@ -7,15 +7,6 @@
   --font-michroma: "Michroma", "sans-serif";
 }
 
-.my-search .ant-span {
-  border-radius: 100px; /* fully rounded input */
-}
-
-.my-search .ant-input-search-button {
-  border-radius: 100px; /* fully rounded button */
-}
-
 body {
-  scroll-behavior: smooth;
   background-color: #0e0e0e;
 }

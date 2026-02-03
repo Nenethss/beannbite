@@ -15,11 +15,13 @@ const BestSellerCard = ({ item }) => {
         }}
         className="flex w-60 h-75 justify-center items-center rounded-[20px]"
       >
-        <p className="text-[17px] text-white font-semibold text-center">
-          {firstWord}
-          <br />
-          {rest}
-        </p>
+        <div className="w-full bg-black/60 h-12 flex items-center justify-center py-8 ">
+          <p className="text-[17px] text-white font-semibold text-center">
+            {firstWord}
+            <br />
+            {rest}
+          </p>
+        </div>
       </div>
     </div>
   );
